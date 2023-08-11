@@ -16,12 +16,12 @@ export default function MusiciansPage() {
   return (
     <Layout>
       <div className="min-h-screen container pt-4 mx-auto border-neutral-content">
-        <div className="grid grid-cols-4 gap-16">
+        <div className="grid grid-cols-4 gap-x-4 gap-y-8 colulm">
           {data?.map((musician, i) => (
-            <div key={i} className="card w-96 bg-info-content shadow-xl">
+            <div key={i} className="card w-64 bg-info-content shadow-xl">
               <figure>
                 <img
-                  className="w-full h-96 object-cover"
+                  className="w-full h-60 object-cover"
                   src={`https://api.infcon2023.roto.codes${musician.profileImageUrl}`}
                   alt="이디어츠 프로필"
                 />

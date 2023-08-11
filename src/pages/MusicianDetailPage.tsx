@@ -5,7 +5,7 @@ import { fetchMusician } from "../api";
 
 export default function MusicianDetailPage() {
   const { slug = "" } = useParams<{ slug: string }>();
-  const { data } = useQuery<{
+  const { data, isLoading } = useQuery<{
     slug: string;
     name: string;
     bio: string;
@@ -18,6 +18,7 @@ export default function MusicianDetailPage() {
   }
   return (
     <Layout>
+      {isLoading && <span className="loading loading-dots loading-lg" />}
       <div
         className="h-96 bg-no-repeat bg-center bg-cover"
         style={{
