@@ -25,9 +25,9 @@ export default function MusicianDetailPage() {
           backgroundImage: `url(https://api.infcon2023.roto.codes${data.backgroundImageUrl})`,
         }}
       ></div>
-      <div className="flex gap-12 px-16 -mt-16 object-cover">
+      <div className="flex gap-12 px-16 -mt-16">
         <img
-          className="rounded-full w-32 h-32"
+          className="rounded-full w-32 h-32 object-cover  bg-slate-50"
           src={`https://api.infcon2023.roto.codes${data.profileImageUrl}`}
           alt={`${data.name} 프로필`}
         />
