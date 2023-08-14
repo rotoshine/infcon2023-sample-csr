@@ -1,6 +1,6 @@
 # infcon 2023 SSR의 기쁨과 슬픔 발표자료 - CSR
 
-CSR로 구현된 샘플 페이지 입니다. `vite + react + typescript 기반으로 구현되어 있습니다.`
+CSR로 구현된 샘플 페이지 입니다. `vite + react + typescript` 기반으로 구현되어 있습니다.
 
 ## 실행법
 
