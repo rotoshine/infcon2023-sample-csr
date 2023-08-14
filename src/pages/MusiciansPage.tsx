@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import Musicians from "../components/Musicians";
 
 export default function MusiciansPage() {
-
   return (
     <Layout>
       <Suspense
